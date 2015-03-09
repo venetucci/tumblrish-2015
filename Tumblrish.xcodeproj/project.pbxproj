@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		106BB5B71AAA9F960076727D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BB5B61AAA9F960076727D /* AppDelegate.swift */; };
+		106BB5B91AAA9F960076727D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BB5B81AAA9F960076727D /* ViewController.swift */; };
+		106BB5BC1AAA9F960076727D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106BB5BA1AAA9F960076727D /* Main.storyboard */; };
+		106BB5BE1AAA9F960076727D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106BB5BD1AAA9F960076727D /* Images.xcassets */; };
+		106BB5C11AAA9F960076727D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 106BB5BF1AAA9F960076727D /* LaunchScreen.xib */; };
+		106BB5CD1AAA9F960076727D /* TumblrishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BB5CC1AAA9F960076727D /* TumblrishTests.swift */; };
+		106BB5D71AAAA08E0076727D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BB5D61AAAA08E0076727D /* HomeViewController.swift */; };
+		106BB5D91AAAA0A80076727D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BB5D81AAAA0A80076727D /* SearchViewController.swift */; };
+		106BB5DB1AAAA0C30076727D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BB5DA1AAAA0C30076727D /* AccountViewController.swift */; };
+		106BB5DD1AAAA0DE0076727D /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BB5DC1AAAA0DE0076727D /* TrendingViewController.swift */; };
+		106BB5DF1AAAA0FC0076727D /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BB5DE1AAAA0FC0076727D /* ComposeViewController.swift */; };
+		106BB5E11AAAA1640076727D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BB5E01AAAA1640076727D /* TabBarViewController.swift */; };
+		106BB5E41AAD38DD0076727D /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BB5E21AAD38DD0076727D /* FadeTransition.swift */; };
+		106BB5E51AAD38DD0076727D /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BB5E31AAD38DD0076727D /* BaseTransition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		106BB5C71AAA9F960076727D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 106BB5A91AAA9F960076727D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 106BB5B01AAA9F960076727D;
+			remoteInfo = Tumblrish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		106BB5B11AAA9F960076727D /* Tumblrish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumblrish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		106BB5B51AAA9F960076727D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		106BB5B61AAA9F960076727D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		106BB5B81AAA9F960076727D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		106BB5BB1AAA9F960076727D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		106BB5BD1AAA9F960076727D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		106BB5C01AAA9F960076727D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		106BB5C61AAA9F960076727D /* TumblrishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		106BB5CB1AAA9F960076727D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		106BB5CC1AAA9F960076727D /* TumblrishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblrishTests.swift; sourceTree = "<group>"; };
+		106BB5D61AAAA08E0076727D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		106BB5D81AAAA0A80076727D /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		106BB5DA1AAAA0C30076727D /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		106BB5DC1AAAA0DE0076727D /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		106BB5DE1AAAA0FC0076727D /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		106BB5E01AAAA1640076727D /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		106BB5E21AAD38DD0076727D /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		106BB5E31AAD38DD0076727D /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		106BB5AE1AAA9F960076727D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106BB5C31AAA9F960076727D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		106BB5A81AAA9F960076727D = {
+			isa = PBXGroup;
+			children = (
+				106BB5B31AAA9F960076727D /* Tumblrish */,
+				106BB5C91AAA9F960076727D /* TumblrishTests */,
+				106BB5B21AAA9F960076727D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		106BB5B21AAA9F960076727D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				106BB5B11AAA9F960076727D /* Tumblrish.app */,
+				106BB5C61AAA9F960076727D /* TumblrishTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		106BB5B31AAA9F960076727D /* Tumblrish */ = {
+			isa = PBXGroup;
+			children = (
+				106BB5E21AAD38DD0076727D /* FadeTransition.swift */,
+				106BB5E31AAD38DD0076727D /* BaseTransition.swift */,
+				106BB5B61AAA9F960076727D /* AppDelegate.swift */,
+				106BB5B81AAA9F960076727D /* ViewController.swift */,
+				106BB5BA1AAA9F960076727D /* Main.storyboard */,
+				106BB5E01AAAA1640076727D /* TabBarViewController.swift */,
+				106BB5DE1AAAA0FC0076727D /* ComposeViewController.swift */,
+				106BB5DC1AAAA0DE0076727D /* TrendingViewController.swift */,
+				106BB5DA1AAAA0C30076727D /* AccountViewController.swift */,
+				106BB5D81AAAA0A80076727D /* SearchViewController.swift */,
+				106BB5D61AAAA08E0076727D /* HomeViewController.swift */,
+				106BB5BD1AAA9F960076727D /* Images.xcassets */,
+				106BB5BF1AAA9F960076727D /* LaunchScreen.xib */,
+				106BB5B41AAA9F960076727D /* Supporting Files */,
+			);
+			path = Tumblrish;
+			sourceTree = "<group>";
+		};
+		106BB5B41AAA9F960076727D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				106BB5B51AAA9F960076727D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		106BB5C91AAA9F960076727D /* TumblrishTests */ = {
+			isa = PBXGroup;
+			children = (
+				106BB5CC1AAA9F960076727D /* TumblrishTests.swift */,
+				106BB5CA1AAA9F960076727D /* Supporting Files */,
+			);
+			path = TumblrishTests;
+			sourceTree = "<group>";
+		};
+		106BB5CA1AAA9F960076727D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				106BB5CB1AAA9F960076727D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		106BB5B01AAA9F960076727D /* Tumblrish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106BB5D01AAA9F960076727D /* Build configuration list for PBXNativeTarget "Tumblrish" */;
+			buildPhases = (
+				106BB5AD1AAA9F960076727D /* Sources */,
+				106BB5AE1AAA9F960076727D /* Frameworks */,
+				106BB5AF1AAA9F960076727D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tumblrish;
+			productName = Tumblrish;
+			productReference = 106BB5B11AAA9F960076727D /* Tumblrish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		106BB5C51AAA9F960076727D /* TumblrishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106BB5D31AAA9F960076727D /* Build configuration list for PBXNativeTarget "TumblrishTests" */;
+			buildPhases = (
+				106BB5C21AAA9F960076727D /* Sources */,
+				106BB5C31AAA9F960076727D /* Frameworks */,
+				106BB5C41AAA9F960076727D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				106BB5C81AAA9F960076727D /* PBXTargetDependency */,
+			);
+			name = TumblrishTests;
+			productName = TumblrishTests;
+			productReference = 106BB5C61AAA9F960076727D /* TumblrishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		106BB5A91AAA9F960076727D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = codepath;
+				TargetAttributes = {
+					106BB5B01AAA9F960076727D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					106BB5C51AAA9F960076727D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 106BB5B01AAA9F960076727D;
+					};
+				};
+			};
+			buildConfigurationList = 106BB5AC1AAA9F960076727D /* Build configuration list for PBXProject "Tumblrish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 106BB5A81AAA9F960076727D;
+			productRefGroup = 106BB5B21AAA9F960076727D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				106BB5B01AAA9F960076727D /* Tumblrish */,
+				106BB5C51AAA9F960076727D /* TumblrishTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		106BB5AF1AAA9F960076727D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106BB5BC1AAA9F960076727D /* Main.storyboard in Resources */,
+				106BB5C11AAA9F960076727D /* LaunchScreen.xib in Resources */,
+				106BB5BE1AAA9F960076727D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106BB5C41AAA9F960076727D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		106BB5AD1AAA9F960076727D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106BB5E11AAAA1640076727D /* TabBarViewController.swift in Sources */,
+				106BB5E51AAD38DD0076727D /* BaseTransition.swift in Sources */,
+				106BB5E41AAD38DD0076727D /* FadeTransition.swift in Sources */,
+				106BB5B91AAA9F960076727D /* ViewController.swift in Sources */,
+				106BB5DB1AAAA0C30076727D /* AccountViewController.swift in Sources */,
+				106BB5B71AAA9F960076727D /* AppDelegate.swift in Sources */,
+				106BB5D91AAAA0A80076727D /* SearchViewController.swift in Sources */,
+				106BB5D71AAAA08E0076727D /* HomeViewController.swift in Sources */,
+				106BB5DD1AAAA0DE0076727D /* TrendingViewController.swift in Sources */,
+				106BB5DF1AAAA0FC0076727D /* ComposeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106BB5C21AAA9F960076727D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106BB5CD1AAA9F960076727D /* TumblrishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		106BB5C81AAA9F960076727D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 106BB5B01AAA9F960076727D /* Tumblrish */;
+			targetProxy = 106BB5C71AAA9F960076727D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		106BB5BA1AAA9F960076727D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				106BB5BB1AAA9F960076727D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		106BB5BF1AAA9F960076727D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				106BB5C01AAA9F960076727D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		106BB5CE1AAA9F960076727D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		106BB5CF1AAA9F960076727D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		106BB5D11AAA9F960076727D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tumblrish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		106BB5D21AAA9F960076727D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tumblrish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		106BB5D41AAA9F960076727D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TumblrishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tumblrish.app/Tumblrish";
+			};
+			name = Debug;
+		};
+		106BB5D51AAA9F960076727D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TumblrishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tumblrish.app/Tumblrish";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		106BB5AC1AAA9F960076727D /* Build configuration list for PBXProject "Tumblrish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106BB5CE1AAA9F960076727D /* Debug */,
+				106BB5CF1AAA9F960076727D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		106BB5D01AAA9F960076727D /* Build configuration list for PBXNativeTarget "Tumblrish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106BB5D11AAA9F960076727D /* Debug */,
+				106BB5D21AAA9F960076727D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		106BB5D31AAA9F960076727D /* Build configuration list for PBXNativeTarget "TumblrishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106BB5D41AAA9F960076727D /* Debug */,
+				106BB5D51AAA9F960076727D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 106BB5A91AAA9F960076727D /* Project object */;
+}
