@@ -60,23 +60,23 @@ class ComposeViewController: UIViewController, UIViewControllerTransitioningDele
             var textButtonEnd = textButton.center.y
             textButton.center.y = textButtonStart
             
-            var photoButtonStart = photoButton.center.y + 500
+            var photoButtonStart = photoButton.center.y + 750
             var photoButtonEnd = photoButton.center.y
             photoButton.center.y = photoButtonStart
             
-            var quoteButtonStart = quoteButton.center.y + 870
+            var quoteButtonStart = quoteButton.center.y + 600
             var quoteButtonEnd = quoteButton.center.y
             quoteButton.center.y = quoteButtonStart
             
-            var chatButtonStart = chatButton.center.y + 1000
+            var chatButtonStart = chatButton.center.y + 800
             var chatButtonEnd = chatButton.center.y
             chatButton.center.y = chatButtonStart
             
-            var linkButtonStart = linkButton.center.y + 1200
+            var linkButtonStart = linkButton.center.y + 740
             var linkButtonEnd = linkButton.center.y
             linkButton.center.y = linkButtonStart
             
-            var videoButtonStart = videoButton.center.y + 700
+            var videoButtonStart = videoButton.center.y + 650
             var videoButtonEnd = videoButton.center.y
             videoButton.center.y = videoButtonStart
             
@@ -111,11 +111,11 @@ class ComposeViewController: UIViewController, UIViewControllerTransitioningDele
         dismissViewControllerAnimated(true, completion: nil)
         
         var textButtonDismiss = textButton.center.y - 700
-        var photoButtonDismiss = photoButton.center.y - 600
-        var quoteButtonDismiss = quoteButton.center.y - 800
-        var linkButtonDismiss = linkButton.center.y - 1100
-        var chatButtonDismiss = chatButton.center.y - 900
-        var videoButtonDismiss = videoButton.center.y - 1200
+        var photoButtonDismiss = photoButton.center.y - 750
+        var quoteButtonDismiss = quoteButton.center.y - 600
+        var linkButtonDismiss = linkButton.center.y - 800
+        var chatButtonDismiss = chatButton.center.y - 740
+        var videoButtonDismiss = videoButton.center.y - 650
         
         UIView.animateWithDuration(0.6)
             { () -> Void in
